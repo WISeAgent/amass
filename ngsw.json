@@ -1,18 +1,28 @@
 {
   "configVersion": 1,
-  "index": "/amass/index.html",
+  "index": "\\amass\\/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/amass/favicon.ico",
-        "/amass/index.html",
-        "/amass/inline.c05216405ed466c59cb2.bundle.js",
-        "/amass/main.2ed04b63b2ef3e2afa4c.bundle.js",
-        "/amass/polyfills.f20484b2fa4642e0dca8.bundle.js",
-        "/amass/styles.3a35575a3897b368b6f7.bundle.css"
+        "\\amass\\/favicon.ico",
+        "\\amass\\/index.html",
+        "\\amass\\/inline.cd4d26b02e349754e9a4.bundle.js",
+        "\\amass\\/main.a8d59d1142a4ae360ef1.bundle.js",
+        "\\amass\\/polyfills.f20484b2fa4642e0dca8.bundle.js",
+        "\\amass\\/styles.3a35575a3897b368b6f7.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "\\amass\\/assets/deliverIT.png",
+        "\\amass\\/assets/taskManagement.png"
       ],
       "patterns": []
     },
@@ -21,16 +31,20 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/amass/inline.c05216405ed466c59cb2.bundle.js": "2664000ce2a69d9ea68eeaff2d4885b8a5d30c65",
-    "/amass/main.2ed04b63b2ef3e2afa4c.bundle.js": "66352d96d31826f46a98b7b26d4c992c44ac2098",
-    "/amass/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
-    "/amass/styles.3a35575a3897b368b6f7.bundle.css": "172591d0184c8a2edaba55588b729cedcf9c9b94",
-    "/amass/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/amass/index.html": "a3971fd06c40829d7a735fe3dd03bf68ea1d1041"
+    "\\amass\\/inline.cd4d26b02e349754e9a4.bundle.js": "a537af0f376feb561b37b7482bd86db1307b732b",
+    "\\amass\\/assets/deliverIT.png": "a50cb5a53fee4a1439ba3eb7c42c4b9a0c6ec698",
+    "\\amass\\/main.a8d59d1142a4ae360ef1.bundle.js": "408ad721baac5103b0d1f2ecaeb7dca58d669aab",
+    "\\amass\\/assets/taskManagement.png": "ce2cfab12ea14f55afcb77821998c89d9ec467c8",
+    "\\amass\\/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
+    "\\amass\\/styles.3a35575a3897b368b6f7.bundle.css": "172591d0184c8a2edaba55588b729cedcf9c9b94",
+    "\\amass\\/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "\\amass\\/index.html": "dafc5067fb55f8c42a14e28e10cde7566e0082cb"
   }
 }
