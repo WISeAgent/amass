@@ -9,10 +9,10 @@
       "urls": [
         "/amass/favicon.ico",
         "/amass/index.html",
-        "/amass/inline.b7069e8ddb6bd4b0f981.bundle.js",
-        "/amass/main.e8e68058a8e84e1e79ca.bundle.js",
-        "/amass/polyfills.f20484b2fa4642e0dca8.bundle.js",
-        "/amass/styles.1cc99eefbe121e832217.bundle.css"
+        "/amass/inline.c865ae00f65ab4176a23.bundle.js",
+        "/amass/main.7d5512c3d9a7faa571ba.bundle.js",
+        "/amass/polyfills.46af3f84a403e219371b.bundle.js",
+        "/amass/styles.bb6a7ded6c557be1859d.bundle.css"
       ],
       "patterns": []
     },
@@ -21,6 +21,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/amass/assets/AMASSDBProto.json",
         "/amass/assets/deliverIT.png",
         "/amass/assets/taskManagement.png"
       ],
@@ -38,13 +39,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/amass/inline.b7069e8ddb6bd4b0f981.bundle.js": "ade25d5865b82590ff27ec4c283c14f7a7a18c81",
+    "/amass/inline.c865ae00f65ab4176a23.bundle.js": "6462b66406e99ac55ebb128fbab76146504918fb",
+    "/amass/assets/AMASSDBProto.json": "2c118fa0537df1d94d6e6375fb40a2f6a176bd7f",
+    "/amass/main.7d5512c3d9a7faa571ba.bundle.js": "f1f3cb5c428d4d0b9ab076dae0af9a7b7b25b9ad",
     "/amass/assets/deliverIT.png": "a50cb5a53fee4a1439ba3eb7c42c4b9a0c6ec698",
-    "/amass/main.e8e68058a8e84e1e79ca.bundle.js": "2ee0184c32c195753c0d91c8406c4b5eca9b4d95",
+    "/amass/polyfills.46af3f84a403e219371b.bundle.js": "2433a5447fd85f5a3e010ff9c5fd06cfb2c8ddcd",
     "/amass/assets/taskManagement.png": "ce2cfab12ea14f55afcb77821998c89d9ec467c8",
-    "/amass/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
-    "/amass/styles.1cc99eefbe121e832217.bundle.css": "58a642c3e6dc21a7c2bb039e9f3b86b7cf082044",
+    "/amass/styles.bb6a7ded6c557be1859d.bundle.css": "2a289c237235640e557a3fb611a5cc3941cd95d9",
     "/amass/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/amass/index.html": "79dbb2cd7141b7770786b8ba84420a40ae0c08c9"
+    "/amass/index.html": "01821627ebdfd6595f9bced1fad1b274a38c5d83"
   }
 }
